@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "name": "Starter Resume Builder",
+        "description": "Create simple resumes with basic templates and export options.",
+        "price": 20,
+        "period": "one-time",
+        "tag": "new",
+        "tagType": "info",
+        "features": [
+            "10+ templates",
+            "Basic editing",
+            "Download as PDF"
+        ],
+        "icon": "../Ui/assets/products/portfolio.png"
+    },
+    {
+        "id": 2,
+        "name": "Pro Resume Kit",
+        "description": "Advanced resume builder with ATS-friendly templates.",
+        "price": 15,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "success",
+        "features": [
+            "50+ templates",
+            "ATS optimization",
+            "Cover letter builder"
+        ],
+        "icon": "../Ui/assets/products/design-tool.png"
+    },
+    {
+        "id": 3,
+        "name": "Career Plus",
+        "description": "All-in-one career toolkit for job seekers.",
+        "price": 99,
+        "period": "yearly",
+        "tag": "best seller",
+        "tagType": "warning",
+        "features": [
+            "100+ templates",
+            "LinkedIn optimization",
+            "Interview tips",
+            "Portfolio builder"
+        ],
+        "icon": "../Ui/assets/products/operation.png"
+    },
+    {
+        "id": 4,
+        "name": "Portfolio Builder",
+        "description": "Create stunning personal portfolios with ease.",
+        "price": 10,
+        "period": "monthly",
+        "tag": "new",
+        "tagType": "info",
+        "features": [
+            "Custom domains",
+            "Drag & drop editor",
+            "SEO tools"
+        ],
+        "icon": "../Ui/assets/products/camera.png"
+    },
+    {
+        "id": 5,
+        "name": "Freelancer Pack",
+        "description": "Tools designed for freelancers to manage profiles and proposals.",
+        "price": 49,
+        "period": "yearly",
+        "tag": "popular",
+        "tagType": "success",
+        "features": [
+            "Proposal templates",
+            "Client tracker",
+            "Invoice generator"
+        ],
+        "icon": "../Ui/assets/products/social-media.png"
+    },
+    {
+        "id": 6,
+        "name": "Executive Suite",
+        "description": "Premium tools for senior professionals and executives.",
+        "price": 199,
+        "period": "yearly",
+        "tag": "best seller",
+        "tagType": "warning",
+        "features": [
+            "Executive templates",
+            "Personal branding",
+            "Priority support"
+        ],
+        "icon": "../Ui/assets/products/writing_1.png"
+    },
+    {
+        "id": 7,
+        "name": "Student Pack",
+        "description": "Affordable resume and portfolio tools for students.",
+        "price": 7,
+        "period": "monthly",
+        "tag": "new",
+        "tagType": "info",
+        "features": [
+            "Internship templates",
+            "Simple editor",
+            "PDF export"
+        ],
+        "icon": "../Ui/assets/Play.png"
+    },
+    {
+        "id": 8,
+        "name": "Ultimate Career Bundle",
+        "description": "Complete career solution with all features unlocked.",
+        "price": 29,
+        "period": "one-time",
+        "tag": "best seller",
+        "tagType": "warning",
+        "features": [
+            "All templates",
+            "ATS optimization",
+            "Portfolio + Resume builder",
+            "Lifetime updates"
+        ],
+        "icon": "../Ui/assets/products/design-tool.png"
+    }
+]

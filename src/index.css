@@ -1,3 +1,37 @@
-p {
-	background-color: rebeccapurple;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+* {
+	font-family: "Manrope", sans-serif;
+}
+
+.text-linear {
+	background: linear-gradient(90deg, rgba(79, 57, 246, 1) 0%, rgba(149, 20, 250, 1) 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white  transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-fuchsia-500/40 before:absolute before:inset-0 before:bg-white/10 before:opacity-0 before:transition-opacity before:duration-300 hover:before:opacity-100 */
+.myBtn {
+	background: linear-gradient(to right, #4F39F6, #9514FA);
+	color: #fff;
+	border-radius: 1.5rem;	/* rounded-3xl */
+	transition: all 0.3s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+.myBtn:hover {
+	transform: scale(1.05);
+	box-shadow: 0 25px 50px -12px rgba(217, 70, 239, 0.4);
+}
+
+.myBtn::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(255, 255, 255, 0.1);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.myBtn:hover::before {
+	opacity: 1;
 }
