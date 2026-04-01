@@ -1,5 +1,6 @@
 import './App.css'
 import ChallengeSection from './Components/ChallengeSection'
+import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Products from './Components/Products/Products'
@@ -17,6 +18,7 @@ function App() {
 			<Started />
 			<Subscription />
 			<ChallengeSection />
+			<Footer />
 		</>
 	)
 }
