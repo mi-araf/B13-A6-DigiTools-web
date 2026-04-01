@@ -3,13 +3,13 @@ import { IoCheckmark } from "react-icons/io5";
 
 const Subscription = () => {
     return (
-        <div className='w-11/12 mx-auto lg:w-9/12 space-y-4'>
+        <div className='w-11/12 mx-auto lg:w-9/12 space-y-4 py-14'>
             <h1 className="text-center font-extrabold text-[#101727] text-3xl md:text-5xl">Simple, Transparent Pricing</h1>
             <p className="text-center text-[#627382] text-sm md:text-base">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mx-auto px-6 my-10">
 
-                <div className="card bg-base-100 shadow-sm h-full rounded-2xl">
+                <div className="card  bg-base-100 h-full rounded-2xl">
                     <div className="card-body bg-[#f2f2f2] rounded-2xl flex flex-col justify-between p-5 md:p-6">
                         <div>
                             <h2 className="text-lg mb-2 md:text-2xl font-bold">Starter</h2>
@@ -20,7 +20,7 @@ const Subscription = () => {
                             </span>
                         </div>
 
-                        <ul className="-mt-6 flex flex-col gap-2 text-sm md:text-base text-[#627382]">
+                        <ul className="mt-3 md:-mt-6 flex flex-col gap-2 text-sm md:text-base text-[#627382]">
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
                                 <span>Access to 10 free tools</span>
@@ -45,10 +45,10 @@ const Subscription = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 shadow-sm relative h-full rounded-2xl sm:col-span-1 lg:col-span-1">
+                <div className="relative card bg-base-100 h-full rounded-2xl sm:col-span-1 lg:col-span-1">
                     <span className="absolute rounded-full shadow font-medium -top-3 md:-top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-sm text-[#BB4D00] px-3 py-1">Most Popular</span>
 
-                    <div className="card-body bg-linear-to-r from-[rgba(79,57,246,1)] to-[rgba(149,20,250,1)] text-white rounded-2xl flex flex-col justify-between p-5 md:p-6">
+                    <div className="card-body bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-2xl flex flex-col justify-between p-5 md:p-6">
                         <div>
                             <h2 className="text-xl md:text-2xl font-bold mb-2">Pro</h2>
                             <p className="text-sm md:text-base opacity-80 text-white mb-6">Best for professionals</p>
@@ -87,7 +87,7 @@ const Subscription = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 shadow-sm h-full rounded-2xl">
+                <div className="card border border-[#F2F2F2] bg-base-100 h-full rounded-2xl">
                     <div className="card-body bg-[#f2f2f2] rounded-2xl flex flex-col justify-between p-5 md:p-6">
                         <div>
                             <h2 className="text-lg mb-2 md:text-2xl font-bold">Enterprise</h2>
