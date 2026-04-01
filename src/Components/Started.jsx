@@ -6,19 +6,19 @@ const Started = () => {
             id: "01",
             title: "Create Account",
             text: "Sign up for free in seconds. No credit card required to get started.",
-            img: "../../Ui/assets/user.png",
+            img: "/assets/user.png",
         },
         {
             id: "02",
             text: "Browse our catalog and select the tools that fit your needs.",
             title: "Choose Products",
-            img: "../../Ui/assets/package.png",
+            img: "/assets/package.png",
         },
         {
             id: "03",
             title: "Start Creating",
             text: "Download and start using your premium tools immediately.",
-            img: "../../Ui/assets/rocket.png",
+            img: "/assets/rocket.png",
         },
     ];
 

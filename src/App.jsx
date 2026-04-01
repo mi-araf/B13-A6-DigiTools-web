@@ -9,12 +9,9 @@ import Navbar from './Components/Navbar'
 import Products from './Components/Products/Products'
 import Started from './Components/Started'
 import Subscription from './Components/Subscription'
-import toolsData from '../Public/toolsData.json'
+import toolsData from '../public/toolsData.json'
 
-const productsData = toolsData.map((product) => ({
-	...product,
-	icon: new URL(product.icon, import.meta.url).href,
-}))
+const productsData = toolsData
 
 function App() {
 	const [cartItems, setCartItems] = useState([])

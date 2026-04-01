@@ -12,7 +12,7 @@
             "Basic editing",
             "Download as PDF"
         ],
-        "icon": "../Ui/assets/products/portfolio.png"
+        "icon": "/assets/products/portfolio.png"
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
             "ATS optimization",
             "Cover letter builder"
         ],
-        "icon": "../Ui/assets/products/design-tool.png"
+        "icon": "/assets/products/design-tool.png"
     },
     {
         "id": 3,
@@ -42,7 +42,7 @@
             "Interview tips",
             "Portfolio builder"
         ],
-        "icon": "../Ui/assets/products/operation.png"
+        "icon": "/assets/products/operation.png"
     },
     {
         "id": 4,
@@ -57,7 +57,7 @@
             "Drag & drop editor",
             "SEO tools"
         ],
-        "icon": "../Ui/assets/products/camera.png"
+        "icon": "/assets/products/camera.png"
     },
     {
         "id": 5,
@@ -72,7 +72,7 @@
             "Client tracker",
             "Invoice generator"
         ],
-        "icon": "../Ui/assets/products/social-media.png"
+        "icon": "/assets/products/social-media.png"
     },
     {
         "id": 6,
@@ -87,7 +87,7 @@
             "Personal branding",
             "Priority support"
         ],
-        "icon": "../Ui/assets/products/writing_1.png"
+        "icon": "/assets/products/writing_1.png"
     },
     {
         "id": 7,
@@ -102,7 +102,7 @@
             "Simple editor",
             "PDF export"
         ],
-        "icon": "../Ui/assets/products/social-media.png"
+        "icon": "/assets/products/social-media.png"
     },
     {
         "id": 8,
@@ -117,6 +117,6 @@
             "ATS optimization",
             "Portfolio + Resume builder"
         ],
-        "icon": "../Ui/assets/products/design-tool.png"
+        "icon": "/assets/products/design-tool.png"
     }
 ]
