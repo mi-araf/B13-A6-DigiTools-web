@@ -32,13 +32,12 @@
     {
         "id": 3,
         "name": "Career Plus",
-        "description": "All-in-one career toolkit for job seekers.",
-        "price": 99,
+        "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+        "price": 59,
         "period": "yearly",
         "tag": "best seller",
         "tagType": "warning",
         "features": [
-            "100+ templates",
             "LinkedIn optimization",
             "Interview tips",
             "Portfolio builder"
@@ -48,7 +47,7 @@
     {
         "id": 4,
         "name": "Portfolio Builder",
-        "description": "Create stunning personal portfolios with ease.",
+        "description": "Create professional resumes and cover letters that land interviews.",
         "price": 10,
         "period": "monthly",
         "tag": "new",
@@ -79,7 +78,7 @@
         "id": 6,
         "name": "Executive Suite",
         "description": "Premium tools for senior professionals and executives.",
-        "price": 199,
+        "price": 99,
         "period": "yearly",
         "tag": "best seller",
         "tagType": "warning",
@@ -93,8 +92,8 @@
     {
         "id": 7,
         "name": "Student Pack",
-        "description": "Affordable resume and portfolio tools for students.",
-        "price": 7,
+        "description": "Affordable with best prices resume and portfolio tools for students.",
+        "price": 11,
         "period": "monthly",
         "tag": "new",
         "tagType": "info",
@@ -103,7 +102,7 @@
             "Simple editor",
             "PDF export"
         ],
-        "icon": "../Ui/assets/Play.png"
+        "icon": "../Ui/assets/products/social-media.png"
     },
     {
         "id": 8,
@@ -116,8 +115,7 @@
         "features": [
             "All templates",
             "ATS optimization",
-            "Portfolio + Resume builder",
-            "Lifetime updates"
+            "Portfolio + Resume builder"
         ],
         "icon": "../Ui/assets/products/design-tool.png"
     }

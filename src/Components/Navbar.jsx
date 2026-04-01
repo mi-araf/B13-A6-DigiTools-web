@@ -1,16 +1,16 @@
 import React from 'react';
-import { CiShoppingCart } from "react-icons/ci";
+import { CiShoppingCart } from 'react-icons/ci';
 
-const Navbar = () => {
+const Navbar = ({ cartCount, onCartClick }) => {
     return (
         <div className='w-11/12 mx-auto lg:w-9/12'>
-            <div className="navbar">
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+            <div className='navbar'>
+                <div className='navbar-start'>
+                    <div className='dropdown'>
+                        <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden'>
+                            <svg xmlns='http://www.w3.org/2000/svg' className='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'> <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h8m-8 6h16' /> </svg>
                         </div>
-                        <ul tabIndex="-1" className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow  font-semibold text-base">
+                        <ul tabIndex='-1' className='menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold text-base'>
                             <li><a>Products</a></li>
                             <li><a>Features</a></li>
                             <li><a>Pricing</a></li>
@@ -18,10 +18,10 @@ const Navbar = () => {
                             <li><a>FAQ</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-linear text-[34px]">DigiTools</a>
+                    <button className='btn btn-ghost text-linear text-[34px] normal-case'>DigiTools</button>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal gap-7 font-semibold text-base">
+                <div className='navbar-center hidden lg:flex'>
+                    <ul className='menu menu-horizontal gap-7 font-semibold text-base'>
                         <li><a>Products</a></li>
                         <li><a>Features</a></li>
                         <li><a>Pricing</a></li>
@@ -29,14 +29,13 @@ const Navbar = () => {
                         <li><a>FAQ</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end flex gap-4 font-semibold text-base">
-                    <a href=""><CiShoppingCart /></a>
-                    {/* <span className="indicator">
-                        <span className="indicator-item badge badge-error badge-sm text-white">{cartCount}</span>
-                        <span>Cart</span>
-                    </span> */}
-                    <a className="" href="">Login</a>
-                    <a href="" className='btn myBtn'>Get Started</a>
+                <div className='navbar-end flex items-center gap-4 font-semibold text-base'>
+                    <button className='btn btn-ghost indicator' onClick={onCartClick}>
+                        <span className='indicator-item badge badge-error badge-sm text-white'>{cartCount}</span>
+                        <CiShoppingCart className='text-2xl' />
+                    </button>
+                    <a className='' href=''>Login</a>
+                    <a href='' className='btn myBtn'>Get Started</a>
                 </div>
             </div>
         </div>
