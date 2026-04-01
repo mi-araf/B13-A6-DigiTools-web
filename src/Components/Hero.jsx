@@ -6,10 +6,10 @@ const Hero = () => {
         <div className=''>
             <div className="hero my-14 w-11/12 mx-auto lg:w-9/12">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-14">
-                    <img src="../../Ui/assets/banner.png" className="max-w-sm rounded-lg shadow-xl" />
+                    <img src="/assets/banner.png" className="max-w-sm rounded-lg shadow-xl" />
                     <div className='space-y-5'>
                         <div className='w-fit bg-[#E1E7FF] px-4 py-2 rounded-full flex gap-1'>
-                            <span className="animate-pulse pt-1"><img src="../../Ui/assets/Group-5.png" alt="" /></span>
+                            <span className="animate-pulse pt-1"><img src="/assets/Group-5.png" alt="" /></span>
                             <p className='text-linear'>
                                 New: AI-Powered Tools Available
                             </p>
