@@ -24,17 +24,17 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white flex gap-4 py-14 px-50 justify-around items-center'>
+            <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white flex flex-col justify-around items-center gap-4 p-14 md:py-14 md:px-30 lg:px-50 md:flex-row'>
                 <div className=''>
                     <h1 className='font-extrabold text-6xl mb-4'>50K+</h1>
                     <p className='font-medium text-2xl opacity-75'>Active Users</p>
                 </div>
-                <div className="divider divider-horizontal before:bg-white/40 after:bg-white/40"></div>
+                <div className="divider md:divider-horizontal before:bg-white/40 after:bg-white/40"></div>
                 <div>
                     <h1 className='font-extrabold text-6xl mb-4'>200+</h1>
                     <p className='font-medium text-2xl opacity-75'>Premium Tools</p>
                 </div>
-                <div className="divider divider-horizontal before:bg-white/50 after:bg-white/50"></div>
+                <div className="divider md:divider-horizontal before:bg-white/50 after:bg-white/50"></div>
                 <div>
                     <h1 className='font-extrabold text-6xl mb-4'>4.9</h1>
                     <p className='font-medium text-2xl opacity-75'>Rating</p>
